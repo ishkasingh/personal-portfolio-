@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <script src="assets/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/1a48c47b52.js" crossorigin="anonymous"></script>
+    <title>Ishka's Portfolio</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo"><span>I</span>shka</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <!-- toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="container section home" id="home">
+            <img src="ishka1.jpg" alt="image 1" class="home__img1">
+            <p class="home__name">Hi, I'm Ishka Singh 👋</p>
+            <h1 class="home__title">FULL STACK JAVA Developer</h1>
+            <p class="home__intro">Passionate <strong>Full Stack Java Developer</strong> skilled in building dynamic, user-centric web applications by integrating efficient backend solutions and engaging frontend designs.</p>
+            <button class="home__reachoutbtn btn"><a href="mailto: ishka14singh@gmail.com">Reach out</a></button>
+        </section>
+
+        <section class="container section about" id="about">
+            <div class="about__content">
+                <h2 class="about__title">About</h2>
+                <p class="about__description">Hello! I'm Ishka Singh, currently pursuing a BTech in Computer Science and Engineering from LNCT University, where I’m set to graduate in 2026. With a strong passion for technology and problem-solving, I specialize as a Full-Stack Java Developer, adept at creating scalable and efficient applications. My journey in the tech world is driven by a deep enthusiasm for Data Structures and Algorithms (DSA), which fuels my commitment to developing innovative solutions and enhancing my coding skills.
+
+My academic background, combined with hands-on experience, has equipped me with a solid foundation in both front-end and back-end development. I'm always eager to tackle new challenges, collaborate with like-minded professionals, and contribute to impactful projects.
+
+Looking forward to connecting with fellow tech enthusiasts and exploring opportunities to further my growth in the software development field.</p>
+                <p class="about__description">
+                   With expertise in HTML, CSS, JavaScript, and Java-based backend frameworks, I specialize in translating creative concepts into fully functional, interactive websites and applications that captivate users and perform seamlessly.</p>
+                <p class="about__description"> Continuously exploring new frameworks and staying updated with industry
+                    trends fuels my drive to create cutting-edge and user-friendly digital experiences</p>
+                <hr class="about__hr">
+                <h3 class="about__subtitle">Skills</h3>
+                <div class="about__ul-container">
+                    <ul class="about__ul list1">
+                        <li class="about__list">JavaScript</li>
+                        <li class="about__list">CSS</li>
+                        <li class="about__list">HTML</li>
+                    </ul>
+                    <ul class="about__ul list2">
+                        <li class="about__list">Bootstrap</li>
+                        <li class="about__list">Java SE</li>
+                        <li class="about__list">Java EE</li>
+                        <li class="about__list">SQL</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about__img">
+                <img src="ishka2.jpg" alt="profile image">
+            </div>
+        </section>
+        <section class="work container section" id="work">
+            <h2 class="work__title">Projects</h2>
+
+            <div class="work__container">
+
+                <!-- Project 1 -->
+                <div class="work__img-wrapper work__image1">
+                    <img class="image__project1" src="project1.png" alt="Landing Page website" />
+                </div>
+                <div class="work__project work__content1">
+                    <h3 class="work__project-subtitle">Landing Page</h3>
+                    <p class="work__project-description1">
+                        Created a Responsive Website Landing Page using HTML, CSS, JS.
+                    </p>
+                    <p class="work__project-description2">
+                        It has Interactive navigation menu that changes color or style when scrolled or when hovering
+                        over a menu item. The navigation menu have a fixed position and be visible on all pages.
+                    </p>
+                    <button class="btn work__project-btn"><a href="https://github.com/ishkasingh/responsive_landing_page">Github
+                            Repo</a></button>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="work__project work__content2">
+                    <h3 class="work__project-subtitle">Stopwatch</h3>
+                    <p class="work__project-description1">
+                        Created a stopwatch web application, used HTML, CSS, and JavaScript. HTML is used to structure
+                        the elements of the application.
+                    </p>
+                    <p class="work__project-description2">
+                        By implementing functions for starting, pausing, and resetting the stopwatch, as well as
+                        tracking and displaying lap times.
+                    </p>
+                    <button class="btn work__project-btn"><a href="https://github.com/ishkasingh/stopwatch">Github
+                            Repo</a></button>
+                </div>
+                <div class="work__img-wrapper work__image2">
+                    <img class="image__project2" src="stopwatch.png" alt="Stopwatch website" />
+                </div>
+
+                <!-- Project 3 -->
+                <div class="work__img-wrapper work__image3">
+                    <img class="image__project3" src="tictoe.png" alt="tic tac toe game website" />
+                </div>
+                <div class="work__project work__content3">
+                    <h3 class="work__project-subtitle">Tic-Tac-Toe Game</h3>
+                    <p class="work__project-description1">
+                        Created a tic-tac-toe web application, using HTML, CSS, and JavaScript.
+                    </p>
+                    <p class="work__project-description2">
+                        By implementing functions to handle user clicks, track game state, and check for winning
+                        conditions ,created an interactive and engaging tic-tac-toe game.
+                    </p>
+                    <button class="btn work__project-btn"><a href="https://github.com/ishkasingh/tic-tac-toe">Github
+                            Repo</a></button>
+                </div>
+                <!-- Project 4 -->
+                <div class="work__project work__content4">
+                    <h3 class="work__project-subtitle">Weather Application</h3>
+                    <p class="work__project-description1">
+                        Created a web page that fetches weather data from a weather API based on the user's location or
+                        a user-inputted location.
+                    </p>
+                    <p class="work__project-description2">
+                        Display the current weather conditions, temperature, and other relevant information.
+                    </p>
+                    <button class="btn work__project-btn"><a href="https://github.com/ishkasingh/weather-prediction-app">Github
+                            Repo</a></button>
+                </div>
+                <div class="work__img-wrapper work__image4">
+                    <img class="image__project4" src="weather.png" alt="weather application website" />
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact container section">
+            <h2 class="contact__title">Get In Contact</h2>
+            <p class="contact__description">
+              Whether you are starting a project, have business inquiries or just
+              want to say hi, my inbox is always open so feel free to reach out and
+              I will get back to you as soon as possible.
+            </p>
+            <a
+              class="contact__btn btn"
+               href="mailto: ishka14singh@gmail.com"
+              >React Out</a
+            >
+          </section>
+        </main>
+        <footer class="footer container section">
+          <h3 class="footer__title">~ Ishka Singh ~</h3>
+        </footer>
+    </main>
+</body>
+
+</html>
